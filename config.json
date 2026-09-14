@@ -1,0 +1,11 @@
+{
+  "_petunjuk": "Isi 'bps_api_key' dengan kunci dari https://webapi.bps.go.id (gratis, daftar sekali). Kosongkan jika ingin selalu input manual. var id di bawah SEBAIKNYA dicek sekali di konsol WebAPI Anda karena BPS bisa mengubahnya.",
+  "bps_api_key": "5954c3c27ef641fee169be47a7b297f9",
+  "domain": "0000",
+  "var_inflasi_bulanan_m_to_m": 1,
+  "var_inflasi_tahun_kalender": 2387,
+  "batas_bulanan_persen_min": -5.0,
+  "batas_bulanan_persen_max": 10.0,
+  "batas_tahunan_fraksi_min": -0.05,
+  "batas_tahunan_fraksi_max": 0.25
+}

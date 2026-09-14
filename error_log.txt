@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\HYPE R Series\Desktop\kalkulator_inflasi\Kalkulator_Inflasi\gui.py", line 676, in main
+    _run()
+    ~~~~^^
+  File "C:\Users\HYPE R Series\Desktop\kalkulator_inflasi\Kalkulator_Inflasi\gui.py", line 671, in _run
+    app = App(root)
+  File "C:\Users\HYPE R Series\Desktop\kalkulator_inflasi\Kalkulator_Inflasi\gui.py", line 55, in __init__
+    self._build_styles()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HYPE R Series\Desktop\kalkulator_inflasi\Kalkulator_Inflasi\gui.py", line 131, in _build_styles
+    style.map("Kalk.TCombobox",
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^
+              fieldbackground=[("readonly", SURFACE), ("normal", SURFACE)],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              bordercolor=[("focus", ACCENT), ("hover", ACCENT)],
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              arrowcolor=[("active", ACCENT)])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HYPE R Series\AppData\Local\Python\pythoncore-3.14-64\Lib\tkinter\ttk.py", line 384, in map
+    result = self.tk.call(self._name, "map", style, *_format_mapdict(kw))
+_tkinter.TclError: Invalid state name normal
